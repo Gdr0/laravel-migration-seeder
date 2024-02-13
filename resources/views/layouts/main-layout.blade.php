@@ -10,10 +10,10 @@
     @yield('head')
 </head>
 <body>
-    <div class="text-center">
-        @include('components.header')
+    <div >
+        <!-- @include('components.header') -->
         @yield('content')
-        @include('components.footer')
+        <!-- @include('components.footer') -->
     </div>
 </body>
 </html>
